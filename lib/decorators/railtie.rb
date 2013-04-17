@@ -8,7 +8,7 @@ module Decorators
     end
 
     config.to_prepare       &load_decorators
-    config.after_initialize &load_decorators
+    #config.after_initialize &load_decorators
 
   end
 end
